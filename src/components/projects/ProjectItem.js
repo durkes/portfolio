@@ -2,8 +2,7 @@ import React from 'react';
 import IconLink from './IconLink';
 import { Box } from '@mui/material';
 
-function ProjectItem(props) {
-   const { image, live, source, title } = props;
+function ProjectItem({ image, live, source, title, description }) {
    return (
       <Box display={'flex'} flexDirection={'column'} justifyContent={'center'} alignItems={'center'}>
          <Box component={'img'} src={image} alt={'mockup'} />

@@ -1,9 +1,10 @@
 import self from '../img/self.jpg';
-import mock1 from '../img/mock1.png';
-import mock2 from '../img/mock2.png';
-import mock3 from '../img/mock3.png';
-import mock4 from '../img/mock4.png';
-import mock5 from '../img/mock5.png';
+import mockChat from '../img/mock-chat.png';
+import mockFmll from '../img/mock-fmll.png';
+import mockTbb from '../img/mock-tbb.png';
+import mockNpm1 from '../img/mock-npm1.png';
+import mockWubsub from '../img/mock-wubsub.png';
+import mockThis from '../img/mock-this.png';
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -111,39 +112,46 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: 'Project 1',
+            title: 'Chat UI Demo w/ React',
             description: 'More info on the project.',
-            live: 'https://paytonpierce.dev', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: 'https://github.com/paytonjewell', // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            live: 'https://durkes.net/react-chat-ui/',
+            source: 'https://github.com/durkes/react-chat-ui',
+            image: mockChat
         },
         {
-            title: 'Project 2',
+            title: 'Client Website (FMLL)',
             description: 'More info on the project.',
-            live: 'https://paytonpierce.dev',
-            source: 'https://github.com/paytonjewell',
-            image: mock2
+            live: 'https://durkes.net/fmll-website/',
+            source: 'https://github.com/durkes/fmll-website',
+            image: mockFmll
         },
         {
-            title: 'Project 3',
+            title: 'Client Website (TBB)',
             description: 'More info on the project.',
-            live: 'https://paytonpierce.dev',
-            source: 'https://github.com/paytonjewell',
-            image: mock3
+            live: 'https://thebackyardbutler.com/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: 'https://github.com/durkes/tbb-website', // this should be a link to the **repository** of the project, where the code is hosted.
+            image: mockTbb
         },
         {
-            title: 'Project 4',
+            title: 'node-router NPM Package',
             description: 'More info on the project.',
-            live: 'https://paytonpierce.dev',
-            source: 'https://github.com/paytonjewell',
-            image: mock4
+            live: 'https://www.npmjs.com/package/node-router',
+            source: 'https://github.com/durkes/node-router',
+            image: mockNpm1
         },
         {
-            title: 'Project 5',
+            title: 'wubsub: Node.js PubSub Solution',
             description: 'More info on the project.',
-            live: 'https://paytonpierce.dev',
-            source: 'https://github.com/paytonjewell',
-            image: mock5
-        }
+            live: 'https://www.npmjs.com/package/wubsub',
+            source: 'https://github.com/durkes/wubsub',
+            image: mockWubsub
+        },
+        {
+            title: 'Portfolio Homepage',
+            description: 'More info on the project.',
+            live: 'https://durkes.net/portfolio',
+            source: 'https://github.com/durkes/portfolio',
+            image: mockThis
+        },
     ]
 };

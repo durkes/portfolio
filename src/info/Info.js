@@ -38,15 +38,11 @@ export const info = {
         },
         {
             emoji: '😎',
-            text: 'HTML, CSS, Sass, React...'
+            text: 'HTML, CSS, Sass, JavaScript, React...'
         },
         {
             emoji: '🌎',
             text: 'based in the US'
-        },
-        {
-            emoji: '🚀',
-            text: 'crypto enthusiast'
         },
         {
             emoji: '📧',
@@ -79,15 +75,13 @@ export const info = {
         //     icon: "fa fa-twitter",
         //     label: 'twitter'
         // }
-        // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
-        // Just change the links so that they lead to your social profiles.
 
     ],
     bio: 'Hello! I\'m Justin. I\'m a software developer looking to gain more professional experience. I have an A.A. in IT/Web Design, received Node.js developer certification from StrongLoop, and completed LC101 through LaunchCode. I originally started coding before CSS was a thing :)',
     skills:
     {
-        proficientWith: ['html', 'css', 'sass', 'bootstrap', 'react', 'next.js', 'javascript', 'node.js', 'sql', 'github'],
-        exposedTo: ['typescript', 'python', 'php']
+        proficientWith: ['html', 'css', 'sass', 'bootstrap', 'react', 'javascript', 'node.js', 'sql', 'github'],
+        exposedTo: ['typescript', 'python', 'php', 'next.js']
     }
     ,
     hobbies: [
@@ -107,8 +101,6 @@ export const info = {
             label: 'hanging w/ friends & fam',
             emoji: '🍾'
         }
-        // Same as above, change the emojis to match / relate to your hobbies or interests.
-        // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState, useContext } from 'react';
 import Navbar from './Navbar';
 import Home from './home/Home';
 import About from './about/About';
@@ -6,16 +6,19 @@ import Projects from './projects/Projects';
 import Style from './BaseLayout.module.scss';
 import { Route, Routes } from 'react-router-dom';
 import { Box, Grid } from '@mui/material';
+import ThemeContext from '../context/ThemeContext';
 
 export default function BaseLayout() {
-   let [darkMode, setDarkMode] = useState(false);
+   const { theme, setTheme } = useContext(ThemeContext);
+   let [darkMode, setDarkMode] = useState(theme === 'dark' ? true : false);
 
    function handleClick() {
       setDarkMode(!darkMode);
+      setTheme(!darkMode ? 'dark' : 'light');
    }
 
    return (
-      <Box className={darkMode ? Style.dark : Style.light}>
+      <Box className={theme === 'dark' ? Style.dark : Style.light}>
          <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'}
             justifyContent={'space-between'}>
             <Grid item>

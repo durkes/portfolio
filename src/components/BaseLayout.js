@@ -10,7 +10,7 @@ import ThemeContext from '../context/ThemeContext';
 
 export default function BaseLayout() {
    const { theme, setTheme } = useContext(ThemeContext);
-   let [darkMode, setDarkMode] = useState(theme === 'dark' ? true : false);
+   const [darkMode, setDarkMode] = useState(theme === 'dark' ? true : false);
 
    function handleClick() {
       setDarkMode(!darkMode);

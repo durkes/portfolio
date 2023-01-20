@@ -5,6 +5,7 @@ import mockTbb from '../img/mock-tbb.png';
 import mockNpm1 from '../img/mock-npm1.png';
 import mockWubsub from '../img/mock-wubsub.png';
 import mockThis from '../img/mock-portfolio.png';
+import mockMarketplace from '../img/mock-marketplace.png';
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -103,6 +104,13 @@ export const info = {
         }
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
+        {
+            title: 'Marketplace Demo',
+            description: 'More info on the project.',
+            live: 'https://marketplace-demo.hostw.xyz/',
+            source: 'https://github.com/durkes/marketplace-mvp',
+            image: mockChat
+        },
         {
             title: 'Chat UI Demo w/ React',
             description: 'More info on the project.',

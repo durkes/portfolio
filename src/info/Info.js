@@ -39,7 +39,7 @@ export const info = {
         },
         {
             emoji: '😎',
-            text: 'HTML, CSS, Sass, JavaScript, React...'
+            text: 'JavaScript, React, HTML, CSS, Sass...'
         },
         {
             emoji: '🌎',

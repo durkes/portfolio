@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "./build/static/css/main.05315e3f.css",
-    "main.js": "./build/static/js/main.29c83dc2.js",
+    "main.js": "./build/static/js/main.a2131a03.js",
     "static/media/mock-fmll.png": "./build/static/media/mock-fmll.27e80c487b1b2f231610.png",
     "static/media/mock-tbb.png": "./build/static/media/mock-tbb.33de35e23591809fdc65.png",
-    "static/media/mock-marketplace.png": "./build/static/media/mock-marketplace.9945a708de06417ff2e3.png",
+    "static/media/mock-marketplace.png": "./build/static/media/mock-marketplace.7b37ff79e0f0fec41af5.png",
     "static/media/mock-npm1.png": "./build/static/media/mock-npm1.7641d8cff8d0054c0a31.png",
     "static/media/mock-wubsub.png": "./build/static/media/mock-wubsub.9787f7e10be424b1bb10.png",
+    "static/media/mock-portfolio.png": "./build/static/media/mock-portfolio.e53e18b87e50a3e38139.png",
     "static/media/self.jpg": "./build/static/media/self.0deffa9ac8e74c8349df.jpg",
-    "static/media/mock-portfolio.png": "./build/static/media/mock-portfolio.ca361e41aa2240dbb964.png",
     "static/media/mock-chat.png": "./build/static/media/mock-chat.f39ebffd291707ec5365.png",
     "index.html": "./build/index.html",
     "main.05315e3f.css.map": "./build/static/css/main.05315e3f.css.map",
-    "main.29c83dc2.js.map": "./build/static/js/main.29c83dc2.js.map"
+    "main.a2131a03.js.map": "./build/static/js/main.a2131a03.js.map"
   },
   "entrypoints": [
     "static/css/main.05315e3f.css",
-    "static/js/main.29c83dc2.js"
+    "static/js/main.a2131a03.js"
   ]
 }

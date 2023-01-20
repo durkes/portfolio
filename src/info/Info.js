@@ -109,7 +109,7 @@ export const info = {
             description: 'More info on the project.',
             live: 'https://marketplace-demo.hostw.xyz/',
             source: 'https://github.com/durkes/marketplace-mvp',
-            image: mockChat
+            image: mockMarketplace
         },
         {
             title: 'Chat UI Demo w/ React',

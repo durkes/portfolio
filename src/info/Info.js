@@ -48,7 +48,7 @@ export const info = {
         {
             emoji: '📧',
             text: 'durkes@gmail.com'
-        }
+        },
     ],
     socials: [
         // {
@@ -78,11 +78,11 @@ export const info = {
         // }
 
     ],
-    bio: 'Hello! I\'m Justin. I\'m a software developer looking to gain more professional experience. I have an A.A. in IT/Web Design, received Node.js developer certification from StrongLoop, and completed LC101 through LaunchCode. I originally started coding before CSS was a thing :)',
+    bio: 'Hello! I\'m Justin. I\'m a software developer looking to gain more professional experience. I have an A.A. in IT/Web Design, received Node.js developer certification from StrongLoop, and completed LC101 through LaunchCode. I built my first website before CSS was a thing :)',
     skills:
     {
-        proficientWith: ['html', 'css', 'sass', 'bootstrap', 'react', 'javascript', 'node.js', 'sql', 'github'],
-        exposedTo: ['typescript', 'python', 'php', 'next.js']
+        proficientWith: ['html', 'css', 'sass', 'javascript', 'sql', 'nosql', 'react', 'tailwind', 'bootstrap', 'node.js', 'express', 'nginx', 'redis'],
+        exposedTo: ['typescript', 'next.js', 'python', 'php']
     }
     ,
     hobbies: [
@@ -91,7 +91,7 @@ export const info = {
             emoji: '🥁'
         },
         {
-            label: 'finance/investing',
+            label: 'finance /investing',
             emoji: '📈'
         },
         {
@@ -112,7 +112,7 @@ export const info = {
             image: mockMarketplace
         },
         {
-            title: 'Chat UI Demo w/ React',
+            title: 'Chat UI Demo',
             description: 'More info on the project.',
             live: 'https://durkes.net/react-chat-ui/',
             source: 'https://github.com/durkes/react-chat-ui',

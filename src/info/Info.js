@@ -105,14 +105,14 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: 'Marketplace Demo',
+            title: 'React Marketplace MVP',
             description: 'More info on the project.',
             live: 'https://marketplace-demo.hostw.xyz/',
             source: 'https://github.com/durkes/marketplace-mvp',
             image: mockMarketplace
         },
         {
-            title: 'Chat UI Demo',
+            title: 'React Chat UI',
             description: 'More info on the project.',
             live: 'https://durkes.net/react-chat-ui/',
             source: 'https://github.com/durkes/react-chat-ui',

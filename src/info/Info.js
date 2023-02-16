@@ -43,7 +43,7 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'based in the US (DFW/KCMO)'
         },
         {
             emoji: '📧',
@@ -78,7 +78,7 @@ export const info = {
         // }
 
     ],
-    bio: 'Hello! I\'m Justin. I\'m a software developer looking to gain more professional experience. I have an A.A. in IT/Web Design, received Node.js developer certification from StrongLoop, and completed LC101 through LaunchCode. I built my first website before CSS was a thing :)',
+    bio: 'Hello! I\'m Justin. I\'m a software developer looking to gain more professional experience. I have a degree in IT/Web Design, received Node.js developer certification from StrongLoop, and completed LC101 through LaunchCode. I built my first website before CSS was a thing :)',
     skills:
     {
         proficientWith: ['html', 'css', 'sass', 'javascript', 'sql', 'nosql', 'react', 'tailwind', 'bootstrap', 'node.js', 'express', 'nginx', 'redis'],

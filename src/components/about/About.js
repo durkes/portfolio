@@ -29,7 +29,7 @@ export default function About() {
                 {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
             </ul>
 
-            {info.skills.exposedTo.length && <>
+            {info.skills.exposedTo.length > 0 && <>
                 <p style={{ color: info.baseColor }}>exposed to</p>
                 <ul className={Style.skills}>
                     {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)}

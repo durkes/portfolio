@@ -28,7 +28,7 @@ export const info = {
     firstName: 'Justin',
     lastName: 'Durkes',
     initials: 'jd', // the example uses first and last, but feel free to use three or more if you like.
-    position: 'a Full Stack Developer',
+    position: 'a Front-End & Node.js Developer',
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -78,7 +78,7 @@ export const info = {
         // }
 
     ],
-    bio: 'Hello! I\'m Justin. I\'m a software developer specializing in React and Node.js. I love coding in JavaScript but TypeScript is growing on me and I\'m flexible with other languages as needed. I have a degree in IT/Web Design, received Node.js developer certification from StrongLoop, and completed LC101 through LaunchCode. I built my first website before CSS was a thing :) Over the years I\'ve tried countless frameworks and libraries, and like to keep a pulse on the latest and greatest.',
+    bio: 'Hello! I\'m Justin. I\'m a software developer specializing in React and Node.js. I love coding in JavaScript but TypeScript is growing on me and I\'m flexible with other languages as needed. I have a degree in IT/Web Design, received Node.js developer certification from StrongLoop, and completed LC101 through LaunchCode. I built my first website before CSS was a thing :) Over the years I\'ve worked with many frameworks and libraries, and like to keep a pulse on the latest and greatest tech and methodologies.',
     skills:
     {
         proficientWith: ['html', 'css', 'sass', 'javascript', 'sql', 'nosql', 'react', 'tailwind', 'bootstrap', 'node.js', 'express', 'nginx', 'redis', 'typescript', 'next.js', 'python', 'php'],

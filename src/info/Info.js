@@ -26,7 +26,7 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'based in DFW, USA'
+            text: 'based in Dallas, Texas'
         },
     ],
     socials: [
@@ -90,7 +90,8 @@ export const info = {
         {
             title: 'React Marketplace MVP',
             description: 'More info on the project.',
-            live: 'https://marketplace-demo.hostw.xyz/',
+            // live: 'https://marketplace-demo.hostw.xyz/',
+            live: 'https://screenmessage.com/jhvt',
             source: 'https://github.com/durkes/marketplace-mvp',
             image: mockMarketplace
         },

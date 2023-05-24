@@ -91,7 +91,7 @@ export const info = {
             title: 'React Marketplace MVP',
             description: 'More info on the project.',
             // live: 'https://marketplace-demo.hostw.xyz/',
-            live: 'https://screenmessage.com/jhvt',
+            live: null,
             source: 'https://github.com/durkes/marketplace-mvp',
             image: mockMarketplace
         },

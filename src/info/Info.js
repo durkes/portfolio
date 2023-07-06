@@ -117,16 +117,16 @@ export const info = {
             image: mockTbb
         },
         {
-            title: 'node-router NPM Package',
+            title: 'node-router: Node.js Middleware',
             description: 'More info on the project.',
-            live: 'https://www.npmjs.com/package/node-router',
+            npm: 'https://www.npmjs.com/package/node-router',
             source: 'https://github.com/durkes/node-router',
             image: mockNpm1
         },
         {
             title: 'wubsub: Node.js PubSub Solution',
             description: 'More info on the project.',
-            live: 'https://www.npmjs.com/package/wubsub',
+            npm: 'https://www.npmjs.com/package/wubsub',
             source: 'https://github.com/durkes/wubsub',
             image: mockWubsub
         },

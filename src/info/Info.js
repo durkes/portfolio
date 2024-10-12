@@ -57,7 +57,7 @@ export const info = {
         // }
 
     ],
-    bio: 'Hello! I\'m Justin. I\'m a software developer specializing in React and Node.js. I have hands-on experience with .NET and I love coding in JavaScript (with TypeScript growing on me). I have a degree in IT/Web Design, obtained Node.js Developer certification from StrongLoop, and completed LC101 through LaunchCode. I started building websites before CSS was a thing :) I\'ve worked with many popular frameworks, libraries, and methodologies. I\'m always eager to explore new technologies and improve my skills. Whether it\'s mastering a new language or diving into the latest tools, I stay flexible and enjoy continuous learning.',
+    bio: 'Hello! I\'m Justin. I\'m a software developer specializing in React and Node.js. I have hands-on experience with .NET and I love coding in JavaScript (with TypeScript growing on me). I have a degree in IT/Web Design, obtained Node.js Developer certification from StrongLoop, and completed LC101 through LaunchCode. I started building websites before CSS was a thing :) I\'ve worked with many popular frameworks, libraries, and methodologies, and I\'m always eager to explore new technologies and improve my skills.',
     skills:
     {
         proficientWith: ['html', 'css', 'sass', 'javascript', 'sql', 'nosql', 'react', 'tailwind', 'bootstrap', 'node.js', 'express', 'nginx', 'redis', 'typescript', 'next.js', 'python', 'php', 'c#'],

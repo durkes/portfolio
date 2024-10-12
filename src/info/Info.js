@@ -18,15 +18,15 @@ export const info = {
     miniBio: [
         {
             emoji: '📜',
-            text: 'certified Node.js Developer'
+            text: 'Certified Node.js Developer'
         },
         {
             emoji: '😎',
-            text: 'JavaScript, React, HTML, CSS, Sass...'
+            text: 'React, .NET, JavaScript, HTML, Sass...'
         },
         {
             emoji: '🌎',
-            text: 'based in Dallas, Texas'
+            text: 'Based in Dallas, Texas'
         },
     ],
     socials: [
@@ -57,20 +57,20 @@ export const info = {
         // }
 
     ],
-    bio: 'Hello! I\'m Justin. I\'m a software developer specializing in React and Node.js. I love coding in JavaScript but TypeScript is growing on me and I\'m flexible with other languages as needed. I have a degree in IT/Web Design, received Node.js developer certification from StrongLoop, and completed LC101 through LaunchCode. I built my first website before CSS was a thing :) Over the years I\'ve worked with many frameworks and libraries, and like to keep a pulse on the latest and greatest tech and methodologies.',
+    bio: 'Hello! I\'m Justin. I\'m a software developer specializing in React and Node.js. I have hands-on experience with .NET and I love coding in JavaScript (with TypeScript growing on me). I have a degree in IT/Web Design, obtained Node.js Developer certification from StrongLoop, and completed LC101 through LaunchCode. I started building websites before CSS was a thing :) I\'ve worked with many popular frameworks, libraries, and methodologies. I\'m always eager to explore new technologies and improve my skills. Whether it\'s mastering a new language or diving into the latest tools, I stay flexible and enjoy continuous learning.',
     skills:
     {
-        proficientWith: ['html', 'css', 'sass', 'javascript', 'sql', 'nosql', 'react', 'tailwind', 'bootstrap', 'node.js', 'express', 'nginx', 'redis', 'typescript', 'next.js', 'python', 'php'],
+        proficientWith: ['html', 'css', 'sass', 'javascript', 'sql', 'nosql', 'react', 'tailwind', 'bootstrap', 'node.js', 'express', 'nginx', 'redis', 'typescript', 'next.js', 'python', 'php', 'c#'],
         exposedTo: []
     }
     ,
     hobbies: [
         {
-            label: 'music and concerts',
+            label: 'music & concerts',
             emoji: '🥁'
         },
         {
-            label: 'hanging w/ friends & fam',
+            label: 'friends & fam',
             emoji: '🍾'
         },
         {
@@ -82,7 +82,7 @@ export const info = {
             emoji: '🐡'
         },
         {
-            label: 'finance / investing',
+            label: 'investing',
             emoji: '📈'
         },
     ],

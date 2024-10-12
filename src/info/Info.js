@@ -18,7 +18,7 @@ export const info = {
     miniBio: [
         {
             emoji: '📜',
-            text: 'Certified Node.js Developer'
+            text: 'certified Node.js Developer'
         },
         {
             emoji: '😎',
@@ -26,7 +26,7 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'Based in Dallas, Texas'
+            text: 'based in Dallas, Texas'
         },
     ],
     socials: [
@@ -57,7 +57,7 @@ export const info = {
         // }
 
     ],
-    bio: 'Hello! I\'m Justin. I\'m a software developer specializing in React and Node.js. I have hands-on experience with .NET and I love coding in JavaScript (with TypeScript growing on me). I have a degree in IT/Web Design, obtained Node.js Developer certification from StrongLoop, and completed LC101 through LaunchCode. I started building websites before CSS was a thing :) I\'ve worked with many popular frameworks, libraries, and methodologies, and I\'m always eager to explore new technologies and improve my skills.',
+    bio: 'Hello! I\'m Justin, a software developer specializing in React and Node.js. I have hands-on experience with .NET and a passion for JavaScript (with a growing interest in TypeScript). I hold a degree in IT/Web Design, a Node.js Developer certification from StrongLoop, and completed LC101 through LaunchCode. I started building websites before CSS was a thing :) I\'ve worked with various frameworks and methodologies, and I like to to explore new technologies and improve my skills.',
     skills:
     {
         proficientWith: ['html', 'css', 'sass', 'javascript', 'sql', 'nosql', 'react', 'tailwind', 'bootstrap', 'node.js', 'express', 'nginx', 'redis', 'typescript', 'next.js', 'python', 'php', 'c#'],

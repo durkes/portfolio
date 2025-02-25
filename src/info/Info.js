@@ -92,42 +92,48 @@ export const info = {
             // live: 'https://marketplace-demo.hostw.xyz/',
             live: null,
             source: 'https://github.com/durkes/marketplace-mvp',
-            image: mockMarketplace
+            image: mockMarketplace,
+            alt: 'React Marketplace MVP screenshot'
         },
         {
             title: 'React Chat UI',
             description: 'More info on the project.',
             live: 'https://durkes.net/react-chat-ui/',
             source: 'https://github.com/durkes/react-chat-ui',
-            image: mockChat
+            image: mockChat,
+            alt: 'React Chat UI screenshot'
         },
         {
             title: 'Client Website (FMLL)',
             description: 'More info on the project.',
             live: 'https://durkes.net/fmll-website/',
             source: 'https://github.com/durkes/fmll-website',
-            image: mockFmll
+            image: mockFmll,
+            alt: 'FMLL website screenshot'
         },
         {
             title: 'Client Website (TBB)',
             description: 'More info on the project.',
             live: 'https://thebackyardbutler.com/',
             source: 'https://github.com/durkes/tbb-website',
-            image: mockTbb
+            image: mockTbb,
+            alt: 'The Backyard Butler website screenshot'
         },
         {
             title: 'node-router: Node.js Middleware',
             description: 'More info on the project.',
             npm: 'https://www.npmjs.com/package/node-router',
             source: 'https://github.com/durkes/node-router',
-            image: mockNpm1
+            image: mockNpm1,
+            alt: 'node-router NPM package screenshot'
         },
         {
             title: 'wubsub: Node.js PubSub Solution',
             description: 'More info on the project.',
             npm: 'https://www.npmjs.com/package/wubsub',
             source: 'https://github.com/durkes/wubsub',
-            image: mockWubsub
+            image: mockWubsub,
+            alt: 'wubsub NPM package screenshot'
         },
     ]
 };

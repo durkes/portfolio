@@ -11,18 +11,18 @@ export const info = {
     firstName: 'Justin',
     lastName: 'Durkes',
     initials: 'jd',
-    position: 'a Front-End & Node.js Developer',
+    position: 'a Front-End & Generalist Developer',
     selfPortrait: self,
     gradient: `-webkit-linear-gradient(135deg, ${colors})`,
     baseColor: colors[0],
     miniBio: [
         {
             emoji: '📜',
-            text: 'certified Node.js Developer'
+            text: 'certified Node.js developer'
         },
         {
-            emoji: '😎',
-            text: 'React, .NET, JavaScript, HTML, Sass...'
+            emoji: '💻',
+            text: 'React, JavaScript, HTML, SCSS, .NET, C#'
         },
         {
             emoji: '🌎',
@@ -55,12 +55,11 @@ export const info = {
         //     icon: "fa fa-twitter",
         //     label: 'twitter'
         // }
-
     ],
-    bio: 'Hello! I\'m Justin, a software developer specializing in React and Node.js. I have hands-on experience with .NET and a passion for JavaScript (with a growing interest in TypeScript). I hold a degree in IT/Web Design, a Node.js Developer certification from StrongLoop, and completed LC101 through LaunchCode. I started building websites before CSS was a thing :) I\'ve worked with various frameworks and methodologies, and I like to to explore new technologies and improve my skills.',
+    bio: 'Hello, I\'m Justin! I specialize in front-end and back-end development using React, Node.js, .NET, and more. I have hands-on experience with platforms like Kentico and Next.js, as well as custom proprietary solutions. I\'m a certified Node.js Developer (StrongLoop), with a degree in IT/Web Design, and completed LC101 through LaunchCode. I started building websites before CSS was a thing :) I\'ve adapted to various frameworks and methodologies, and I like to keep up with the latest technologies and standards.',
     skills:
     {
-        proficientWith: ['html', 'css', 'sass', 'javascript', 'sql', 'nosql', 'react', 'tailwind', 'bootstrap', 'node.js', 'express', 'nginx', 'redis', 'typescript', 'next.js', 'python', 'php', 'c#'],
+        proficientWith: ['html', 'css', 'scss', 'javascript', 'react', 'typescript', 'next.js', 'tailwind', 'bootstrap', 'node.js', 'express', '.net', 'c#', 'python', 'php', 'sql', 'nosql', 'redis', 'nginx'],
         exposedTo: []
     }
     ,

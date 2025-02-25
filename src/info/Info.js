@@ -117,7 +117,7 @@ export const info = {
             live: 'https://thebackyardbutler.com/',
             source: 'https://github.com/durkes/tbb-website',
             image: mockTbb,
-            alt: 'The Backyard Butler website screenshot'
+            alt: 'Client website screenshot'
         },
         {
             title: 'node-router: Node.js Middleware',

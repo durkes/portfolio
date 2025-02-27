@@ -28,10 +28,22 @@ const useImageLoader = (containerRef) => {
 export default function LoadTransition({ children }) {
     const containerRef = useRef(null);
     const imagesLoaded = useImageLoader(containerRef);
+    const [showSpinner, setShowSpinner] = useState(false);
+
+    useEffect(() => {
+        if (!imagesLoaded) {
+            const timer = setTimeout(() => {
+                setShowSpinner(true);
+            }, 500); // only show spinner after timeout
+            return () => clearTimeout(timer);
+        } else {
+            setShowSpinner(false);
+        }
+    }, [imagesLoaded]);
 
     return (
         <>
-            {!imagesLoaded && (
+            {!imagesLoaded && showSpinner && (
                 <Box
                     sx={{
                         position: 'fixed',

@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 @import "./variables.modules";
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Roboto', Helvetica, sans-serif;
@@ -9,17 +14,10 @@ body {
     height: 100%;
     color: $dark;
     background-color: $white;
-    box-sizing: border-box;
 }
 
 li {
     color: $dark;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 a,

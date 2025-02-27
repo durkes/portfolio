@@ -29,7 +29,7 @@ const links = [
     }
 ];
 
-export default function Navbar({ darkMode, handleClick }) {
+export default function Navbar({ darkMode, handleToggleTheme }) {
     const location = useLocation();
     const [active, setActive] = useState(location.pathname === '/' ? 'home' : location.pathname.slice(1, location.pathname.length));
 
@@ -48,7 +48,7 @@ export default function Navbar({ darkMode, handleClick }) {
                     </Box>
                 ))}
                 <li>
-                    <Toggler darkMode={darkMode} handleClick={handleClick} />
+                    <Toggler darkMode={darkMode} handleToggleTheme={handleToggleTheme} />
                 </li>
             </Box>
         </Box>

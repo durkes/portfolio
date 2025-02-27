@@ -12,7 +12,7 @@ export default function BaseLayout() {
    const { theme, setTheme } = useContext(ThemeContext);
    const [darkMode, setDarkMode] = useState(theme === 'dark' ? true : false);
 
-   function handleClick() {
+   function handleToggleTheme() {
       setDarkMode(!darkMode);
       setTheme(!darkMode ? 'dark' : 'light');
    }
@@ -22,7 +22,7 @@ export default function BaseLayout() {
          <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'}
             justifyContent={'space-between'}>
             <Grid item>
-               <Navbar darkMode={darkMode} handleClick={handleClick} />
+               <Navbar darkMode={darkMode} handleToggleTheme={handleToggleTheme} />
             </Grid>
             <Grid item flexGrow={1}>
                <Routes>

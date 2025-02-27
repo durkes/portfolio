@@ -25,11 +25,9 @@ function App() {
 
    return (
       <ThemeContext.Provider value={themeState}>
-         <div>
-            <HashRouter>
-               <BaseLayout />
-            </HashRouter>
-         </div>
+         <HashRouter>
+            <BaseLayout />
+         </HashRouter>
       </ThemeContext.Provider>
    );
 }

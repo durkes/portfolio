@@ -1,4 +1,5 @@
 import React from 'react';
+import LoadTransition from '../common/LoadTransition';
 import Style from './About.module.scss';
 import Terminal from './Terminal';
 import { Box } from '@mui/material';
@@ -53,10 +54,12 @@ export default function About() {
     }
 
     return (
-        <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
-            <Terminal text={aboutMeText()} />
-            <Terminal text={skillsText()} />
-            <Terminal text={miscText()} />
-        </Box>
+        <LoadTransition>
+            <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
+                <Terminal text={aboutMeText()} />
+                <Terminal text={skillsText()} />
+                <Terminal text={miscText()} />
+            </Box>
+        </LoadTransition>
     );
 }

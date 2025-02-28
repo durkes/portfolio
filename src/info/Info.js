@@ -57,31 +57,41 @@ export const info = {
         // }
     ],
     bio: 'Hello, I\'m Justin! I specialize in front-end and back-end development using React, Node.js, .NET, and more. I have hands-on experience with platforms like Kentico and Next.js, as well as custom proprietary solutions. I\'m a certified Node.js Developer (StrongLoop), hold a degree in IT/Web Design, and completed LC101 through LaunchCode. I started building websites before CSS was a thing :) I\'ve adapted to various frameworks and methodologies, and I like to keep up with the latest technologies and standards.',
-    skills:
-    {
-        proficientWith: ['html', 'css', 'scss', 'javascript', 'react', 'typescript', 'next.js', 'tailwind', 'bootstrap', 'node.js', 'express', '.net', 'c#', 'python', 'php', 'sql', 'nosql', 'redis', 'nginx'],
+    skills: {
+        proficientWith: [
+            // Frontend
+            'HTML', 'CSS', 'SCSS', 'JavaScript', 'TypeScript', 'React', 'Tailwind', 'Bootstrap',
+
+            // Backend
+            'Node.js', 'Next.js', 'Express', '.NET', 'C#', 'Kentico', 'PHP', 'Python',
+
+            // Databases & Storage
+            'SQL', 'NoSQL', 'Redis',
+
+            // Server & DevOps
+            'Nginx', 'Cloudflare', 'AWS'
+        ],
         exposedTo: []
-    }
-    ,
+    },
     hobbies: [
         {
-            label: 'music & concerts',
+            label: 'music_&_concerts.mp3',
             emoji: '🥁'
         },
         {
-            label: 'friends & fam',
+            label: 'friends_&_fam.tar.gz',
             emoji: '🍾'
         },
         {
-            label: 'travel',
+            label: 'travel.pdf',
             emoji: '✈️'
         },
         {
-            label: 'scuba diving',
+            label: 'scuba_diving.mp4',
             emoji: '🐡'
         },
         {
-            label: 'investing',
+            label: 'investing.csv',
             emoji: '📈'
         },
     ],

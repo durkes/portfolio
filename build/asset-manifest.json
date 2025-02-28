@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./build/static/css/main.d7d2d142.css",
-    "main.js": "./build/static/js/main.507c079f.js",
+    "main.js": "./build/static/js/main.a1a081fa.js",
     "static/media/mock-fmll.png": "./build/static/media/mock-fmll.27e80c487b1b2f231610.png",
     "static/media/mock-tbb.png": "./build/static/media/mock-tbb.33de35e23591809fdc65.png",
     "static/media/mock-marketplace.png": "./build/static/media/mock-marketplace.7b37ff79e0f0fec41af5.png",
@@ -11,10 +11,10 @@
     "static/media/mock-chat.png": "./build/static/media/mock-chat.f39ebffd291707ec5365.png",
     "index.html": "./build/index.html",
     "main.d7d2d142.css.map": "./build/static/css/main.d7d2d142.css.map",
-    "main.507c079f.js.map": "./build/static/js/main.507c079f.js.map"
+    "main.a1a081fa.js.map": "./build/static/js/main.a1a081fa.js.map"
   },
   "entrypoints": [
     "static/css/main.d7d2d142.css",
-    "static/js/main.507c079f.js"
+    "static/js/main.a1a081fa.js"
   ]
 }

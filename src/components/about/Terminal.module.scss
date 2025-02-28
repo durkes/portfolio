@@ -17,10 +17,13 @@ i {
 }
 
 .terminal {
+  ul {
+    margin-top: 1.5rem;
+  }
 
   p,
   li {
-    margin: 1rem 0;
+    margin-bottom: 1rem;
     color: $white;
   }
 

@@ -47,7 +47,8 @@ export default function About() {
                 className={Style.green}>(main)</span> $</span> ls</p>
             <ul>
                 {info.hobbies.map((hobby, index) => (
-                    <li key={index}><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box>{hobby.label}</li>
+                    // add a zero-width space after underscores for word wrap on mobile
+                    <li key={index}><Box component={'span'} mr={'0.75rem'}>{hobby.emoji}</Box>{hobby.label.replace(/_/g, '_\u200B')}</li>
                 ))}
             </ul>
         </>;

@@ -1,11 +1,7 @@
 import React from 'react';
 import LoadTransition from '../common/LoadTransition';
-import Style from './About.module.scss';
 import Terminal from './Terminal';
 import { Box } from '@mui/material';
-import { info } from '../../info/Info';
-
-
 import AboutMe from './molecules/AboutMe';
 import Skills from './molecules/Skills';
 import Hobbies from './molecules/Hobbies';

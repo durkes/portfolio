@@ -1,4 +1,4 @@
-import { useState, useContext } from 'react';
+import { useContext } from 'react';
 import Navbar from './Navbar';
 import Home from './home/Home';
 import About from './about/About';

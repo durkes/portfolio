@@ -1,23 +1,23 @@
-@import "../variables.modules";
+@use "../variables.modules" as variables;
 
 .dark {
-    background-color: $dark;
-    color: $white;
-    transition: $transition;
+    background-color: variables.$dark;
+    color: variables.$white;
+    transition: variables.$transition;
 
     a,
     i,
     li {
-        color: $white;
+        color: variables.$white;
     }
 
     a:visited {
-        color: $white;
+        color: variables.$white;
     }
 }
 
 .light {
-    background-color: $white;
-    color: $dark;
-    transition: $transition;
+    background-color: variables.$white;
+    color: variables.$dark;
+    transition: variables.$transition;
 }

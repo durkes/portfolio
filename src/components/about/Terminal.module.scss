@@ -1,4 +1,4 @@
-@import "../../variables.modules";
+@use "../../variables.modules" as variables;
 
 .header {
   background-color: #8c8c8c;
@@ -10,15 +10,15 @@
     padding-left: 0.5rem;
 
     &.red {
-      color: $red !important;
+      color: variables.$red !important;
     }
 
     &.amber {
-      color: $yellow !important;
+      color: variables.$yellow !important;
     }
 
     &.green {
-      color: $green !important;
+      color: variables.$green !important;
     }
   }
 }
@@ -39,7 +39,7 @@
   p,
   li {
     margin-bottom: 1rem;
-    color: $white;
+    color: variables.$white;
   }
 
   a,

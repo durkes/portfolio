@@ -1,4 +1,4 @@
-@import "../../variables.modules";
+@use "../../variables.modules" as variables;
 
 h1 {
   font-size: 2rem;
@@ -30,12 +30,12 @@ h2 {
 }
 
 a {
-  color: $dark;
-  transition: $transition;
+  color: variables.$dark;
+  transition: variables.$transition;
 }
 
 a:hover {
-  color: $lightgray;
+  color: variables.$lightgray;
 }
 
 @keyframes wave {

@@ -7,6 +7,7 @@ import Style from './BaseLayout.module.scss';
 import { Route, Routes } from 'react-router-dom';
 import { Box, Grid } from '@mui/material';
 import ThemeContext from '../context/ThemeContext';
+import ScrollToTop from './common/ScrollToTop';
 
 export default function BaseLayout() {
    const { theme, setTheme } = useContext(ThemeContext);
@@ -17,6 +18,7 @@ export default function BaseLayout() {
 
    return (
       <Box className={theme === 'dark' ? Style.dark : Style.light}>
+         <ScrollToTop />
          <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'}
             justifyContent={'space-between'}>
             <Grid item>

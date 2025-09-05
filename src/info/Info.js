@@ -56,14 +56,14 @@ export const info = {
         //     label: 'twitter'
         // }
     ],
-    bio: 'Hello, I\'m Justin! I specialize in front-end and back-end development using React, Node.js, .NET, and more. I have hands-on experience with platforms like Kentico and Next.js, as well as custom proprietary solutions. I\'m a certified Node.js Developer (StrongLoop), hold a degree in IT/Web Design, and completed LC101 through LaunchCode. I started building websites before CSS was a thing :) I\'ve adapted to various frameworks and methodologies, and I like to keep up with the latest technologies and standards.',
+    bio: 'Hello, I\'m Justin! I build fast, scalable, and user-friendly web applications, working across the stack with React, Node.js, .NET, and more. I have hands-on experience with platforms like Kentico, Next.js, and custom proprietary solutions. I\'m a certified Node.js Developer (StrongLoop), hold a degree in IT/Web Design, and completed LC101 through LaunchCode. I started building websites before CSS was a thing :) These days, I enjoy building and experimenting with AI.',
     skills: {
         proficientWith: [
+            // Backend
+            'Node.js', 'Next.js', 'Express', 'Kentico', '.NET', 'C#', 'PHP', 'Python',
+
             // Frontend
             'HTML', 'CSS', 'SCSS', 'JavaScript', 'TypeScript', 'React', 'Tailwind', 'Bootstrap',
-
-            // Backend
-            'Node.js', 'Next.js', 'Express', '.NET', 'C#', 'Kentico', 'PHP', 'Python',
 
             // Databases & Storage
             'SQL', 'NoSQL', 'Redis',

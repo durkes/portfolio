@@ -1,19 +1,13 @@
 @use "../variables.modules" as variables;
 
-nav {
-  transition: variables.$transition;
-}
-
 .active {
   border-bottom: 5px solid;
   border-image-slice: 1;
 }
 
 li {
-  transition: variables.$transition;
-
   &:hover {
-    transform: translateY(-3px);
+    transform: translateY(-2px);
     transition: variables.$transition;
   }
 }

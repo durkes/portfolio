@@ -39,7 +39,7 @@ export default function Navbar({ darkMode, handleToggleTheme }) {
                 gap={{ xs: '2rem', md: '8rem' }}
                 textTransform={'lowercase'} fontSize={'1rem'}>
                 {links.map((link, index) => (
-                    <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
+                    <Box key={index} component={'li'} className={`${(link.active === active && !link.type) && Style.active} ${link.type && Style.initials}`}
                         sx={{ borderImageSource: info.gradient }}>
                         <Link to={link.to} onClick={() => setActive(link.active)}>
                             {!link.type && <p style={{ paddingBottom: '0.5rem' }}>{link.name}</p>}

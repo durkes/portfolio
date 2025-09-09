@@ -11,3 +11,9 @@ li {
     transition: variables.$transition;
   }
 }
+
+.initials {
+  @media (max-width: 480px) {
+    display: none;
+  }
+}

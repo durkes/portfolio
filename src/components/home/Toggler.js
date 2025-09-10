@@ -2,8 +2,6 @@ import React from 'react';
 import { Box } from '@mui/material';
 
 export default function Toggler({ darkMode, handleToggleTheme }) {
-   const transition = 'all 250ms ease';
-
    return (
       <Box fontSize={'1.25rem'} sx={{ cursor: 'pointer', userSelect: 'none' }}>
          {

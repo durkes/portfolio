@@ -24,8 +24,9 @@
 
     .button {
         cursor: pointer;
-        background: variables.$yellow;
-        color: white;
+        background: transparent;
+        color: variables.$dark;
+        border: 3px solid variables.$dark;
         border-radius: 50%;
         width: 40px;
         height: 40px;
@@ -36,17 +37,18 @@
         font-size: 1.5rem;
 
         &:hover {
-            background: variables.$pink;
+            background: variables.$dark;
+            color: variables.$white;
         }
     }
 
     &.dark .button {
-        background: variables.$white;
-        color: variables.$dark;
+        color: variables.$white;
+        border-color: variables.$white;
 
         &:hover {
-            background: variables.$pink;
-            color: variables.$white;
+            background: variables.$white;
+            color: variables.$dark;
         }
     }
 }

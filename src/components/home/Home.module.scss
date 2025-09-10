@@ -29,15 +29,6 @@ h2 {
   display: inline-block;
 }
 
-a {
-  color: variables.$dark;
-  transition: variables.$transition;
-}
-
-a:hover {
-  color: variables.$lightgray;
-}
-
 @keyframes wave {
   0% {
     transform: rotate(0.0deg)

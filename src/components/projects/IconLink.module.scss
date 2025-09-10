@@ -1,26 +1,13 @@
 @use "../../variables.modules" as variables;
 
-.iconlink *,
-.iconlink_dark * {
-    border-color: variables.$dark !important;
-    color: variables.$dark;
-    transition: variables.$transition;
+.iconlink * {
+    border-color: var(--text-color);
+    color: var(--text-color);
 }
 
 .iconlink:hover * {
-    background-color: variables.$dark;
-    color: variables.$white;
-}
-
-.iconlink_dark * {
-    border-color: variables.$white !important;
-    color: variables.$white;
-}
-
-.iconlink_dark:hover * {
-    background-color: variables.$white;
-    border-color: variables.$dark !important;
-    color: variables.$dark;
+    background-color: var(--text-color);
+    color: var(--bg-color);
 }
 
 .icon {

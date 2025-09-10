@@ -3,7 +3,6 @@ import Navbar from './Navbar';
 import Home from './home/Home';
 import About from './about/About';
 import Projects from './projects/Projects';
-import Style from './BaseLayout.module.scss';
 import { Route, Routes } from 'react-router-dom';
 import { Box, Grid } from '@mui/material';
 import ThemeContext from '../context/ThemeContext';
@@ -17,7 +16,7 @@ export default function BaseLayout() {
    }
 
    return (
-      <Box className={theme === 'dark' ? Style.dark : Style.light}>
+      <Box>
          <ScrollToTop />
          <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'}
             justifyContent={'space-between'}>

@@ -29,10 +29,32 @@ a:active {
     text-decoration: none;
 }
 
+a {
+    color: var(--text-color);
+    transition: variables.$transition;
+}
+
+a:hover {
+    color: variables.$lightgray;
+}
+
 img {
     max-width: 100%;
 }
 
 ul {
     list-style-type: none;
+}
+
+footer {
+    font-size: 0.625rem;
+
+    a {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+            color: inherit;
+        }
+    }
 }

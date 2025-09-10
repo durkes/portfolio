@@ -11,7 +11,8 @@ function App() {
 
    // Set initial theme on document element
    useEffect(() => {
-      document.documentElement.setAttribute('data-theme', theme);
+      const initialTheme = localStorage.getItem('theme') || 'light';
+      document.documentElement.setAttribute('data-theme', initialTheme);
    }, []);
 
    useEffect(() => {

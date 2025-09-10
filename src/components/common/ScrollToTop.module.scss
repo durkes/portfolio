@@ -5,7 +5,7 @@
     bottom: 0.75rem;
     right: 0.75rem;
     z-index: 1000;
-    transition: all 0.5s ease;
+    transition: variables.$transition;
 
     @media (min-width: 768px) {
         bottom: 1.5rem;
@@ -39,11 +39,10 @@
         &:hover {
             background: variables.$dark;
             color: variables.$white;
-            box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 5px 8px 0 rgba(0, 0, 0, 0.14), 0 1px 14px 0 rgba(0, 0, 0, 0.12);
         }
     }
 
-    &.dark .button {
+    [data-theme="dark"] & .button {
         box-shadow: none;
 
         &:hover {

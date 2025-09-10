@@ -21,3 +21,12 @@
     color: variables.$dark;
     transition: variables.$transition;
 }
+
+footer a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+        color: inherit;
+    }
+}

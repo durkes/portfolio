@@ -34,20 +34,24 @@
         align-items: center;
         transition: variables.$transition;
         font-size: 1.5rem;
+        box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
 
         &:hover {
             background: variables.$dark;
             color: variables.$white;
+            box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 5px 8px 0 rgba(0, 0, 0, 0.14), 0 1px 14px 0 rgba(0, 0, 0, 0.12);
         }
     }
 
     &.dark .button {
         background: variables.$dark;
         color: variables.$white;
+        box-shadow: none;
 
         &:hover {
             background: variables.$white;
             color: variables.$dark;
+            box-shadow: none;
         }
     }
 }

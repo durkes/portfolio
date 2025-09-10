@@ -29,6 +29,11 @@
   background-color: #27242f;
   font-size: 1.5rem;
   font-family: 'Courier New', Courier, monospace;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 1.125rem;
+    padding: 1.5rem 2rem;
+  }
 }
 
 .terminal {

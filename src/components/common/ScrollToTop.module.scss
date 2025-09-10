@@ -18,15 +18,14 @@
     }
 
     &.visible {
-        opacity: 0.8;
+        opacity: 0.85;
         visibility: visible;
     }
 
     .button {
         cursor: pointer;
-        background: transparent;
+        background: variables.$white;
         color: variables.$dark;
-        border: 3px solid variables.$dark;
         border-radius: 50%;
         width: 40px;
         height: 40px;
@@ -43,8 +42,8 @@
     }
 
     &.dark .button {
+        background: variables.$dark;
         color: variables.$white;
-        border-color: variables.$white;
 
         &:hover {
             background: variables.$white;

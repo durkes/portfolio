@@ -6,9 +6,9 @@ function IconLink(props) {
 
    const { link, title, icon } = props;
    return (
-      <a href={link} className={Style.iconlink} target="_blank" rel="noopener noreferrer">
-         <Box p={1} border={'2px solid black'} borderRadius={'25px'} padding={'0.5rem 0.9rem'}>
-            <i className={classNames(icon, Style.icon)} /> {title}
+      <a href={link} className={Style.iconLink} target="_blank" rel="noopener noreferrer">
+         <Box p={1} className={Style.iconBox}>
+            <i className={classNames(icon)} /> {title}
          </Box>
       </a>
    );

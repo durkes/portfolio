@@ -1,15 +1,16 @@
 @use "../../variables.modules" as variables;
 
-.iconlink * {
-    border-color: var(--text-color);
+.iconLink * {
     color: var(--text-color);
 }
 
-.iconlink:hover * {
+.iconLink:hover * {
     background-color: var(--text-color);
     color: var(--bg-color);
 }
 
-.icon {
-    padding: 0;
+.iconBox {
+    border: 2px solid var(--text-color);
+    border-radius: 25px;
+    padding: 0.5rem 0.9rem;
 }

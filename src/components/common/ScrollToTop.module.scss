@@ -44,14 +44,10 @@
     }
 
     &.dark .button {
-        background: variables.$dark;
-        color: variables.$white;
         box-shadow: none;
 
         &:hover {
-            background: variables.$white;
-            color: variables.$dark;
-            box-shadow: none;
+            background: transparent;
         }
     }
 }

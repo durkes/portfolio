@@ -9,8 +9,14 @@ function App() {
    const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
    const themeState = { theme, setTheme };
 
+   // Set initial theme on document element
+   useEffect(() => {
+      document.documentElement.setAttribute('data-theme', theme);
+   }, []);
+
    useEffect(() => {
       localStorage.setItem('theme', theme);
+      document.documentElement.setAttribute('data-theme', theme);
    }, [theme]);
 
    useEffect(() => {

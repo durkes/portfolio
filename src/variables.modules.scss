@@ -9,6 +9,17 @@ $lightgray: #b0bccc;
 
 $transition: all 250ms ease;
 
+// CSS Custom Properties for theme switching
+:root {
+  --bg-color: #{$white};
+  --text-color: #{$dark};
+}
+
+[data-theme="dark"] {
+  --bg-color: #{$dark};
+  --text-color: #{$white};
+}
+
 .shadowed {
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.4);
 }

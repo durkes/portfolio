@@ -7,6 +7,7 @@ import { Route, Routes } from 'react-router-dom';
 import { Box, Grid } from '@mui/material';
 import ThemeContext from '../context/ThemeContext';
 import ScrollToTop from './common/ScrollToTop';
+import { CURRENT_YEAR } from '../constants/buildInfo';
 
 export default function BaseLayout() {
    const { theme, setTheme } = useContext(ThemeContext);
@@ -34,7 +35,7 @@ export default function BaseLayout() {
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
                   py={'1.5rem'} sx={{ opacity: 0.7 }} width={'100%'}>
                   <p>original design by <a href="https://paytonpierce.dev/" target="_blank" rel="noreferrer">Payton Pierce</a></p>
-                  <p><a href="https://github.com/durkes/portfolio" target="_blank" rel="noreferrer">built w/ React</a> &copy; 2025</p>
+                  <p><a href="https://github.com/durkes/portfolio" target="_blank" rel="noreferrer">built w/ React</a> &copy; {CURRENT_YEAR}</p>
                </Box>
             </Grid>
          </Grid>

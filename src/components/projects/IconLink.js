@@ -7,7 +7,7 @@ function IconLink(props) {
    const { link, title, icon } = props;
    return (
       <a href={link} className={Style.iconLink} target="_blank" rel="noopener noreferrer">
-         <Box p={1} className={Style.iconBox}>
+         <Box className={Style.iconBox}>
             <i className={classNames(icon)} /> {title}
          </Box>
       </a>

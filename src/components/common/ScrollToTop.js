@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Style from './ScrollToTop.module.scss';
 import { Box } from '@mui/material';
-import classnames from 'classnames';
 
 export default function ScrollToTop() {
     const [isVisible, setIsVisible] = useState(false);
@@ -30,7 +29,7 @@ export default function ScrollToTop() {
     }, []);
 
     return (
-        <div className={classnames(Style.scrollToTop, isVisible ? Style.visible : Style.hidden)}>
+        <div className={`${Style.scrollToTop} ${isVisible ? Style.visible : Style.hidden}`}>
             <Box onClick={scrollToTop} className={Style.button}>
                 <i className={'fa fa-arrow-up'} />
             </Box>

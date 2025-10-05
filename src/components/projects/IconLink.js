@@ -1,5 +1,4 @@
 import Style from './IconLink.module.scss';
-import classNames from 'classnames';
 import { Box } from '@mui/material';
 
 function IconLink(props) {
@@ -8,7 +7,7 @@ function IconLink(props) {
    return (
       <a href={link} className={Style.iconLink} target="_blank" rel="noopener noreferrer">
          <Box className={Style.iconBox}>
-            <i className={classNames(icon)} /> {title}
+            <i className={icon} /> {title}
          </Box>
       </a>
    );

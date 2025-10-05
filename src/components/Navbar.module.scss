@@ -1,5 +1,10 @@
 @use "../variables.modules" as variables;
 
+.navLink {
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
 .active {
   border-bottom: 5px solid;
   border-image-slice: 1;
@@ -8,6 +13,8 @@
 li {
   &:hover {
     transition: variables.$transition;
+    margin-top: -2px;
+    padding-bottom: 2px;
   }
 }
 

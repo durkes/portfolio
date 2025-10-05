@@ -13,7 +13,7 @@ export default function BaseLayout() {
    const { theme, setTheme } = useContext(ThemeContext);
 
    function handleToggleTheme() {
-      setTheme(theme === 'dark' ? 'light' : 'dark');
+      setTheme(prevTheme => prevTheme === 'dark' ? 'light' : 'dark');
    }
 
    return (

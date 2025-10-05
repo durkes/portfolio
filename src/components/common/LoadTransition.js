@@ -1,49 +1,47 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Box, CircularProgress } from '@mui/material';
 
-const useImageLoader = (containerRef) => {
-    const [imagesLoaded, setImagesLoaded] = useState(false);
+export default function LoadTransition({ children }) {
+    const [loading, setLoading] = useState(true);
+    const containerRef = useRef(null);
 
     useEffect(() => {
-        if (!containerRef.current) return;
+        const images = containerRef.current?.getElementsByTagName('img');
+        if (!images || images.length === 0) {
+            setLoading(false);
+            return;
+        }
 
-        const images = containerRef.current.getElementsByTagName('img');
-        const imagePromises = Array.from(images).map(img => {
-            return new Promise((resolve) => {
-                if (img.complete) {
-                    resolve();
-                } else {
-                    img.addEventListener('load', resolve);
-                    img.addEventListener('error', resolve); // handle error cases too
-                }
-            });
+        let loadedImages = 0;
+        const totalImages = images.length;
+
+        const handleImageLoad = () => {
+            loadedImages++;
+            if (loadedImages === totalImages) {
+                setLoading(false);
+            }
+        };
+
+        Array.from(images).forEach(img => {
+            if (img.complete) {
+                handleImageLoad();
+            } else {
+                img.addEventListener('load', handleImageLoad);
+                img.addEventListener('error', handleImageLoad);
+            }
         });
 
-        Promise.all(imagePromises).then(() => setImagesLoaded(true));
-    }, [containerRef]);
-
-    return imagesLoaded;
-};
-
-export default function LoadTransition({ children }) {
-    const containerRef = useRef(null);
-    const imagesLoaded = useImageLoader(containerRef);
-    const [showSpinner, setShowSpinner] = useState(false);
-
-    useEffect(() => {
-        if (!imagesLoaded) {
-            const timer = setTimeout(() => {
-                setShowSpinner(true);
-            }, 500); // only show spinner after timeout
-            return () => clearTimeout(timer);
-        } else {
-            setShowSpinner(false);
-        }
-    }, [imagesLoaded]);
+        return () => {
+            Array.from(images).forEach(img => {
+                img.removeEventListener('load', handleImageLoad);
+                img.removeEventListener('error', handleImageLoad);
+            });
+        };
+    }, []);
 
     return (
         <>
-            {!imagesLoaded && showSpinner && (
+            {loading && (
                 <Box
                     sx={{
                         position: 'fixed',
@@ -59,7 +57,7 @@ export default function LoadTransition({ children }) {
             <Box
                 ref={containerRef}
                 sx={{
-                    opacity: imagesLoaded ? 1 : 0,
+                    opacity: loading ? 0 : 1,
                     transition: 'opacity 0.2s ease'
                 }}
             >

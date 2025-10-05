@@ -7,13 +7,6 @@ import { info } from './info/Info';
 
 function App() {
    const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
-   const themeState = { theme, setTheme };
-
-   // Set initial theme on document element
-   useEffect(() => {
-      const initialTheme = localStorage.getItem('theme') || 'light';
-      document.documentElement.setAttribute('data-theme', initialTheme);
-   }, []);
 
    useEffect(() => {
       localStorage.setItem('theme', theme);
@@ -31,7 +24,7 @@ function App() {
    }, []);
 
    return (
-      <ThemeContext.Provider value={themeState}>
+      <ThemeContext.Provider value={{ theme, setTheme }}>
          <HashRouter>
             <BaseLayout />
          </HashRouter>

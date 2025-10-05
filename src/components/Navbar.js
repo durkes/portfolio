@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Style from './Navbar.module.scss';
 import Toggler from './home/Toggler';
 import { Link, useLocation } from 'react-router-dom';
@@ -31,7 +31,7 @@ const links = [
 
 export default function Navbar({ darkMode, handleToggleTheme }) {
     const location = useLocation();
-    const [active, setActive] = useState(location.pathname === '/' ? 'home' : location.pathname.slice(1, location.pathname.length));
+    const active = location.pathname === '/' ? 'home' : location.pathname.slice(1, location.pathname.length);
 
     return (
         <Box component={'nav'} width={'100%'}>
@@ -41,7 +41,7 @@ export default function Navbar({ darkMode, handleToggleTheme }) {
                 {links.map((link, index) => (
                     <Box key={index} component={'li'} className={`${(link.active === active && !link.type) && Style.active} ${link.type && Style.initials}`}
                         sx={{ borderImageSource: info.gradient }}>
-                        <Link to={link.to} onClick={() => setActive(link.active)} className={Style.navLink}>
+                        <Link to={link.to} className={Style.navLink}>
                             {!link.type && link.name}
                             {link.type && <h1>{link.name}</h1>}
                         </Link>

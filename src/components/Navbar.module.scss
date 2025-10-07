@@ -1,21 +1,29 @@
 @use "../variables.modules" as variables;
 
 .navLink {
-  padding-bottom: 0.5rem;
   display: inline-block;
+  transition: variables.$transition;
+
+  &:hover {
+    padding-top: 2px;
+    padding-bottom: 6px;
+  }
+
+  .active &,
+  &,
+  &:active {
+    padding-top: 0;
+    padding-bottom: 8px;
+  }
+
+  &:active {
+    transition: none;
+  }
 }
 
 .active {
   border-bottom: 5px solid;
   border-image-slice: 1;
-}
-
-li {
-  &:hover {
-    transition: variables.$transition;
-    margin-top: -2px;
-    padding-bottom: 2px;
-  }
 }
 
 .initials {

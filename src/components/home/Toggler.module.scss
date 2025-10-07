@@ -1,6 +1,6 @@
 @use "../../variables.modules" as variables;
 
-.toggleIcon {
+.toggleButton {
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -8,8 +8,25 @@
     transition: variables.$transition;
 
     &:hover {
-        transform: scale(1.2);
+        padding-top: 2px;
+        padding-bottom: 0;
     }
+
+    &,
+    &:active {
+        padding-top: 0;
+        padding-bottom: 2px;
+    }
+
+    &:active {
+        transition: none;
+    }
+}
+
+.toggleIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .svgIcon {

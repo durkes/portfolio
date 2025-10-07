@@ -5,13 +5,13 @@
   transition: variables.$transition;
 
   &:hover {
-    padding-top: 2px;
-    padding-bottom: 6px;
+    padding-top: 0;
+    padding-bottom: 10px;
   }
 
   &,
   &:active {
-    padding-top: 0;
+    padding-top: 2px;
     padding-bottom: 8px;
   }
 

@@ -8,14 +8,14 @@
     transition: variables.$transition;
 
     &:hover {
-        padding-top: 2px;
-        padding-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 2px;
     }
 
     &,
     &:active {
-        padding-top: 0;
-        padding-bottom: 2px;
+        padding-top: 2px;
+        padding-bottom: 0;
     }
 
     &:active {

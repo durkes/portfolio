@@ -1,0 +1,23 @@
+@use "../../variables.modules" as variables;
+
+.toggleIcon {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: variables.$transition;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.svgIcon {
+    @extend .toggleIcon;
+}
+
+.faIcon {
+    @extend .toggleIcon;
+    width: 24px;
+    height: 24px;
+}

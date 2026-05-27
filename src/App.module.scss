@@ -1,5 +1,21 @@
 @use "./variables.modules" as variables;
 
+// CSS Custom Properties for theme switching
+:root {
+    --bg-color: #{variables.$white};
+    --text-color: #{variables.$dark};
+}
+
+[data-theme="dark"] {
+    --bg-color: #{variables.$dark};
+    --text-color: #{variables.$white};
+}
+
+// global utility class (referenced as a plain "shadowed" className)
+:global(.shadowed) {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.4);
+}
+
 * {
     margin: 0;
     padding: 0;

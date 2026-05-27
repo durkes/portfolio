@@ -1,4 +1,3 @@
-import React from 'react';
 import Style from '../About.module.scss';
 import { Box } from '@mui/material';
 import { info } from '../../../info/Info';

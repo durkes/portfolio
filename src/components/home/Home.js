@@ -1,4 +1,3 @@
-import React from 'react';
 import LoadTransition from '../common/LoadTransition';
 import Style from './Home.module.scss';
 import me from '../../img/self.jpg';

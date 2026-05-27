@@ -1,4 +1,3 @@
-import React from 'react';
 import LoadTransition from '../common/LoadTransition';
 import ProjectItem from './ProjectItem';
 import { Grid } from '@mui/material';

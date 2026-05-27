@@ -1,4 +1,3 @@
-import React from 'react';
 import LoadTransition from '../common/LoadTransition';
 import Terminal from './Terminal';
 import { Box } from '@mui/material';

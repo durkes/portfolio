@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Style from './ScrollToTop.module.scss';
 import { Box } from '@mui/material';
 

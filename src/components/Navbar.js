@@ -38,7 +38,7 @@ export default function Navbar({ darkMode, handleToggleTheme }) {
                 gap={{ xs: '2rem', md: '8rem' }}
                 textTransform={'lowercase'} fontSize={'1rem'}>
                 {links.map((link, index) => (
-                    <Box key={index} component={'li'} className={`${(link.active === active && !link.type) && Style.active} ${link.type && Style.initials}`}
+                    <Box key={index} component={'li'} className={[link.active === active && !link.type && Style.active, link.type && Style.initials].filter(Boolean).join(' ')}
                         sx={{ borderImageSource: info.gradient }}>
                         <Link to={link.to} className={Style.navLink}>
                             {!link.type && link.name}

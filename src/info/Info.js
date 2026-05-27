@@ -1,4 +1,3 @@
-import self from '../img/self.jpg';
 import mockChat from '../img/mock-chat.png';
 import mockFmll from '../img/mock-fmll.png';
 import mockTbb from '../img/mock-tbb.png';
@@ -6,13 +5,12 @@ import mockNpm1 from '../img/mock-npm1.png';
 import mockWubsub from '../img/mock-wubsub.png';
 import mockMarketplace from '../img/mock-marketplace.png';
 
-export const colors = ['rgb(0,255,164)', 'rgb(166,104,255)'];
+const colors = ['rgb(0,255,164)', 'rgb(166,104,255)'];
 export const info = {
     firstName: 'Justin',
     lastName: 'Durkes',
     initials: 'jd',
     position: 'a Front-End & Generalist Developer',
-    selfPortrait: self,
     gradient: `-webkit-linear-gradient(135deg, ${colors})`,
     baseColor: colors[0],
     miniBio: [

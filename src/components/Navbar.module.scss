@@ -2,6 +2,7 @@
 
 .navLink {
   display: inline-block;
+  position: relative;
   transition: variables.$transition;
   padding-top: 2px;
   padding-bottom: 8px;
@@ -9,11 +10,30 @@
   &:active {
     transition: none;
   }
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 5px;
+    background: linear-gradient(135deg, rgb(0, 255, 164), rgb(166, 104, 255));
+    transition: variables.$transition;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
 }
 
 .active {
   border-bottom: 5px solid;
   border-image-slice: 1;
+
+  .navLink::after {
+    content: none;
+  }
 }
 
 .initials {

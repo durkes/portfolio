@@ -50,10 +50,6 @@ a {
     transition: variables.$transition;
 }
 
-a:hover {
-    color: variables.$lightgray;
-}
-
 img {
     max-width: 100%;
 }

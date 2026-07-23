@@ -20,7 +20,7 @@ export const info = {
         },
         {
             emoji: '💻',
-            text: 'React, JavaScript, HTML, SCSS, .NET, C#'
+            text: 'Kentico, WordPress, React, Astro, AWS...'
         },
         {
             emoji: '🌎',

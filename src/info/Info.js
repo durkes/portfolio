@@ -49,25 +49,25 @@ export const info = {
             label: 'linkedin'
         },
         // {
-        //     link: "https://twitter.com",
+        //     link: "https://x.com/",
         //     icon: "fa fa-twitter",
         //     label: 'twitter'
         // }
     ],
-    bio: 'Hello, I\'m Justin! I build fast, scalable, and user-friendly web applications, working across the stack with React, Node.js, .NET, and more. I have hands-on experience with platforms like Kentico, Next.js, and custom proprietary solutions. I\'m a certified Node.js Developer (StrongLoop), hold a degree in IT/Web Design, and completed LC101 through LaunchCode. I started building websites before CSS was a thing :) These days, I enjoy building and experimenting with AI.',
+    bio: 'Hello, I\'m Justin! I build fast, scalable, and user-friendly web applications, working across the stack with React, Astro, Node.js, .NET, and AWS. I have hands-on experience with platforms like Kentico, Next.js, and custom proprietary solutions. In my current role, I lead the development for a multi-brand enterprise platform serving 900+ franchises, with a focus on performance, SEO, AEO, and conversion. Beyond code, I also bring experience from leadership, operations, and project management roles. I\'m a certified Node.js Developer (StrongLoop), have a degree in IT/Web Design, and completed LC101 through LaunchCode. I started building websites before CSS was a thing :) Lately, I\'ve fully adopted AI into my workflow and enjoy experimenting with new models and tools.',
     skills: {
         proficientWith: [
             // Backend
-            'Node.js', 'Next.js', 'Express', 'Kentico', '.NET', 'C#', 'PHP', 'Python',
+            'Node.js', 'Next.js', 'Astro', 'Express', 'Kentico', 'WordPress', '.NET', 'C#', 'PHP', 'Python',
 
             // Frontend
             'HTML', 'CSS', 'SCSS', 'JavaScript', 'TypeScript', 'React', 'Tailwind', 'Bootstrap',
 
             // Databases & Storage
-            'SQL', 'NoSQL', 'Redis',
+            'SQL', 'MongoDB', 'DynamoDB', 'Redis',
 
             // Server & DevOps
-            'Nginx', 'Cloudflare', 'AWS'
+            'Nginx', 'Cloudflare', 'AWS', 'CI/CD'
         ],
         exposedTo: []
     },

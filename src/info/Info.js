@@ -122,7 +122,7 @@ export const info = {
         {
             title: 'Client Website (TBB)',
             description: 'More info on the project.',
-            live: 'https://thebackyardbutler.com/',
+            live: 'https://tbb.pages.dev/',
             source: 'https://github.com/durkes/tbb-website',
             image: mockTbb,
             alt: 'Client website screenshot'

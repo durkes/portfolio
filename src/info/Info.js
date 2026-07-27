@@ -99,38 +99,38 @@ export const info = {
     ],
     portfolio: [
         {
-            title: 'Marketing Website (HomeVestors)',
+            title: 'Dallas Market Center',
             description: 'More info on the project.',
-            live: 'https://www.webuyuglyhouses.com/',
-            image: wbuhHva,
-            alt: 'We Buy Ugly Houses website screenshot'
-        },
-        {
-            title: 'Agency Website (Imaginuity)',
-            description: 'More info on the project.',
-            live: 'https://www.imaginuity.com/',
-            image: imaginuity,
-            alt: 'Imaginuity website screenshot'
-        },
-        {
-            title: 'Client Website (Dallas Market Center)',
-            description: 'More info on the project.',
-            live: 'https://dallasmarketcenter.com/',
+            site: 'https://dallasmarketcenter.com/',
             image: dallasMarketCenter,
             alt: 'Dallas Market Center website screenshot'
         },
         {
-            title: 'Client Website (Dallas Jet)',
+            title: 'Dallas Jet',
             description: 'More info on the project.',
-            live: 'https://www.dallasjet.com/',
+            site: 'https://www.dallasjet.com/',
             image: dallasJet,
             alt: 'Dallas Jet International website screenshot'
         },
         {
+            title: 'Marketing Agency',
+            description: 'More info on the project.',
+            site: 'https://www.imaginuity.com/',
+            image: imaginuity,
+            alt: 'Imaginuity website screenshot'
+        },
+        {
+            title: 'HomeVestors',
+            description: 'More info on the project.',
+            site: 'https://www.webuyuglyhouses.com/',
+            image: wbuhHva,
+            alt: 'We Buy Ugly Houses website screenshot'
+        },
+        {
             title: 'React Marketplace MVP',
             description: 'More info on the project.',
-            // live: 'https://marketplace-demo.hostw.xyz/',
-            live: null,
+            // demo: 'https://marketplace-demo.hostw.xyz/',
+            demo: null,
             source: 'https://github.com/durkes/marketplace-mvp',
             image: mockMarketplace,
             alt: 'React Marketplace MVP screenshot'
@@ -138,7 +138,7 @@ export const info = {
         {
             title: 'React Chat UI',
             description: 'More info on the project.',
-            live: 'https://durkes.net/react-chat-ui/',
+            demo: 'https://durkes.net/react-chat-ui/',
             source: 'https://github.com/durkes/react-chat-ui',
             image: mockChat,
             alt: 'React Chat UI screenshot'
@@ -146,7 +146,7 @@ export const info = {
         {
             title: 'Client Website (FMLL)',
             description: 'More info on the project.',
-            live: 'https://durkes.net/fmll-website/',
+            demo: 'https://durkes.net/fmll-website/',
             source: 'https://github.com/durkes/fmll-website',
             image: mockFmll,
             alt: 'FMLL website screenshot'
@@ -154,7 +154,7 @@ export const info = {
         {
             title: 'Client Website (TBB)',
             description: 'More info on the project.',
-            live: 'https://tbb.pages.dev/',
+            demo: 'https://tbb.pages.dev/',
             source: 'https://github.com/durkes/tbb-website',
             image: mockTbb,
             alt: 'Client website screenshot'

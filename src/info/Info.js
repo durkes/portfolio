@@ -1,3 +1,7 @@
+import wbuhHva from '../img/screens/wbuh-hva.jpg';
+import imaginuity from '../img/screens/imaginuity.jpg';
+import dallasMarketCenter from '../img/screens/dallas-market-center.jpg';
+import dallasJet from '../img/screens/dallas-jet.jpg';
 import mockChat from '../img/screens/mock-chat.jpg';
 import mockFmll from '../img/screens/mock-fmll.jpg';
 import mockTbb from '../img/screens/mock-tbb.jpg';
@@ -94,6 +98,34 @@ export const info = {
         },
     ],
     portfolio: [
+        {
+            title: 'Enterprise Platform (HomeVestors)',
+            description: 'More info on the project.',
+            live: 'https://www.webuyuglyhouses.com/',
+            image: wbuhHva,
+            alt: 'We Buy Ugly Houses website screenshot'
+        },
+        {
+            title: 'Agency Website (Imaginuity)',
+            description: 'More info on the project.',
+            live: 'https://www.imaginuity.com/',
+            image: imaginuity,
+            alt: 'Imaginuity website screenshot'
+        },
+        {
+            title: 'Client Website (Dallas Market Center)',
+            description: 'More info on the project.',
+            live: 'https://dallasmarketcenter.com/',
+            image: dallasMarketCenter,
+            alt: 'Dallas Market Center website screenshot'
+        },
+        {
+            title: 'Client Website (Dallas Jet)',
+            description: 'More info on the project.',
+            live: 'https://www.dallasjet.com/',
+            image: dallasJet,
+            alt: 'Dallas Jet International website screenshot'
+        },
         {
             title: 'React Marketplace MVP',
             description: 'More info on the project.',

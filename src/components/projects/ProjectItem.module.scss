@@ -62,7 +62,7 @@
     width: 116%;
     margin-left: -8%;
     aspect-ratio: 46;
-    border-radius: 0 0 0.45rem 0.45rem;
+    border-radius: 0 0 0.6rem 0.6rem;
     background-image: linear-gradient(180deg, #0e1014 0 6%, #565e6c 6% 16%, #3c4149 45%, #262a30 100%);
 
     // indent for opening the lid
@@ -82,9 +82,9 @@
 // the rubber foot the machine rests on — steps in from the base so the
 // silhouette tapers toward the surface
 .foot {
-    width: 105%;
-    margin-left: -2.5%;
-    aspect-ratio: 200;
+    width: 103%;
+    margin-left: -1.5%;
+    aspect-ratio: 240;
     border-radius: 0 0 0.15rem 0.15rem;
     background-image: linear-gradient(180deg, #1b1e23, #0e1013);
 }

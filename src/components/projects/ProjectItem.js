@@ -21,7 +21,7 @@ function ProjectItem({ image, site, demo, npm, source, title, description, alt }
          <Box display={'flex'} flexDirection={'column'} gap={'0.5rem'}
             alignItems={'center'} fontSize={'1.5rem'} py={'2rem'}>
             {site && <IconLink link={site} title={'client website'} icon={'fa fa-globe'} />}
-            {demo && <IconLink link={demo} title={'live demo'} icon={'fa fa-safari'} />}
+            {demo && <IconLink link={demo} title={'live demo'} icon={'fa fa-play-circle'} />}
             {npm && <IconLink link={npm} title={'npm package'} icon={'fa fa-cube'} />}
             {source && <IconLink link={source} title={'source code'} icon={'fa fa-code'} />}
          </Box>

@@ -58,7 +58,7 @@ export const info = {
         //     label: 'twitter'
         // }
     ],
-    bio: 'Hello, I\'m Justin! I build fast, scalable, and user-friendly web applications, working across the stack with React, Astro, Node.js, .NET, and AWS. I have hands-on experience with platforms like Kentico, Next.js, and custom proprietary solutions. In my current role, I lead the development for a multi-brand enterprise platform serving 900+ franchises, with a focus on performance, SEO, AEO, and conversion. Beyond code, I also bring experience from leadership, operations, and project management roles. I\'m a certified Node.js Developer (StrongLoop), have a degree in IT/Web Design, and completed LC101 through LaunchCode. I started building websites before CSS was a thing :) Lately, I\'ve fully adopted AI into my workflow and enjoy experimenting with new models and tools.',
+    bio: 'Hello, I\'m Justin! I build fast, scalable, and user-friendly web applications across the stack. I work with popular frameworks like React and Astro on the front end, Node.js and .NET on the back end, and cloud providers like AWS and Cloudflare at the edge and underneath. I am Node.js certified and contributed some useful packages early on. I have hands-on experience with CMS migrations and development involving Kentico, WordPress, and custom proprietary solutions. In my current role, I lead the development for a multi-brand enterprise platform serving 900+ franchises, with a focus on performance, SEO, AEO, and conversion. Beyond code, I bring experience from leadership, operations, and project management roles. Lately, I\'ve fully adopted AI into my workflow and enjoy experimenting with new models and tools.',
     skills: {
         proficientWith: [
             // Backend
@@ -99,7 +99,7 @@ export const info = {
     ],
     portfolio: [
         {
-            title: 'Enterprise Platform (HomeVestors)',
+            title: 'Marketing Website (HomeVestors)',
             description: 'More info on the project.',
             live: 'https://www.webuyuglyhouses.com/',
             image: wbuhHva,

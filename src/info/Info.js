@@ -1,9 +1,9 @@
-import mockChat from '../img/mock-chat.png';
-import mockFmll from '../img/mock-fmll.png';
-import mockTbb from '../img/mock-tbb.png';
-import mockNpm1 from '../img/mock-npm1.png';
-import mockWubsub from '../img/mock-wubsub.png';
-import mockMarketplace from '../img/mock-marketplace.png';
+import mockChat from '../img/screens/mock-chat.jpg';
+import mockFmll from '../img/screens/mock-fmll.jpg';
+import mockTbb from '../img/screens/mock-tbb.jpg';
+import mockNpm1 from '../img/screens/mock-npm1.jpg';
+import mockWubsub from '../img/screens/mock-wubsub.jpg';
+import mockMarketplace from '../img/screens/marketplace.jpg';
 
 const colors = ['rgb(0,255,164)', 'rgb(166,104,255)'];
 export const info = {

@@ -5,7 +5,7 @@ import { Box } from '@mui/material';
 function ProjectItem({ image, live, npm, source, title, description, alt }) {
    return (
       <Box display={'flex'} flexDirection={'column'} justifyContent={'center'} alignItems={'center'}
-         mt={{ xs: '2.5rem', md: '4rem' }}>
+         mt={{ xs: '2.5rem', md: '4rem' }} px={{ xs: '1.5rem', md: '2rem' }}>
          {image && (
             <Box className={Style.laptop}>
                <Box className={Style.lid}>
@@ -17,7 +17,7 @@ function ProjectItem({ image, live, npm, source, title, description, alt }) {
                <Box className={Style.foot} />
             </Box>
          )}
-         <h1 style={{ fontSize: '2rem' }}>{title}</h1>
+         <h1 className={Style.title}>{title}</h1>
          <Box display={'flex'} flexDirection={'column'} gap={'0.5rem'}
             alignItems={'center'} fontSize={'1.5rem'} py={'2rem'}>
             {live && <IconLink link={live} title={'live demo'} icon={'fa fa-safari'} />}

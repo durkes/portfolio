@@ -1,5 +1,12 @@
 @use "../../variables.modules" as variables;
 
+// the global h1 rule goes left-aligned at 940px, which only shows up once a
+// title wraps — on one line the flex item shrink-wraps and looks centered
+.title {
+    font-size: 2rem;
+    text-align: center;
+}
+
 // pure-CSS laptop mockup — the screenshots in img/screens are bare captures
 // with no chrome or padding of their own. proportions and colors are taken
 // from the mockups that used to be baked into the images.

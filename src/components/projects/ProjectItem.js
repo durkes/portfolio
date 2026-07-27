@@ -5,7 +5,7 @@ import { Box } from '@mui/material';
 function ProjectItem({ image, live, npm, source, title, description, alt }) {
    return (
       <Box display={'flex'} flexDirection={'column'} justifyContent={'center'} alignItems={'center'}
-         mt={{ xs: '2.5rem', md: '4rem' }} px={{ xs: '1.5rem', md: '2rem' }}>
+         mt={{ xs: '2.5rem', md: '4rem' }}>
          {image && (
             <Box className={Style.laptop}>
                <Box className={Style.lid}>

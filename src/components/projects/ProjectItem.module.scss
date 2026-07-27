@@ -3,6 +3,7 @@
 // the global h1 rule goes left-aligned at 940px, which only shows up once a
 // title wraps — on one line the flex item shrink-wraps and looks centered
 .title {
+    padding: 0 1.5rem;
     font-size: 2rem;
     text-align: center;
 }

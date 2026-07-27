@@ -6,7 +6,7 @@ import { info } from '../../info/Info';
 export default function Projects() {
     return (
         <LoadTransition>
-            <Grid container display={'flex'} justifyContent={'center'}>
+            <Grid container display={'flex'} justifyContent={'center'} pt={'2.5rem'}>
                 {info.portfolio.map((project, index) => (
                     <Grid item xs={12} md={6} key={index}>
                         <ProjectItem image={project.image} live={project.live} npm={project.npm} source={project.source} title={project.title} description={project.description} alt={project.alt} />

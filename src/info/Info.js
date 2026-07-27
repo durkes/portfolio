@@ -113,7 +113,7 @@ export const info = {
             alt: 'Dallas Jet International website screenshot'
         },
         {
-            title: 'Marketing Agency',
+            title: 'Imaginuity Marketing Agency',
             description: 'More info on the project.',
             site: 'https://www.imaginuity.com/',
             image: imaginuity,
@@ -144,17 +144,17 @@ export const info = {
             alt: 'React Chat UI screenshot'
         },
         {
-            title: 'Client Website (FMLL)',
+            title: 'FM Lawn & Landscape',
             description: 'More info on the project.',
-            demo: 'https://durkes.net/fmll-website/',
+            site: 'https://durkes.net/fmll-website/',
             source: 'https://github.com/durkes/fmll-website',
             image: mockFmll,
             alt: 'FMLL website screenshot'
         },
         {
-            title: 'Client Website (TBB)',
+            title: 'Pet Waste Removal',
             description: 'More info on the project.',
-            demo: 'https://tbb.pages.dev/',
+            site: 'https://tbb.pages.dev/',
             source: 'https://github.com/durkes/tbb-website',
             image: mockTbb,
             alt: 'Client website screenshot'

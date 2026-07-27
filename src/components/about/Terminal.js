@@ -6,7 +6,7 @@ function Terminal(props) {
 
    return (
       <Box component={'section'} className={`${Style.terminal} shadowed`}
-         width={{ xs: '80%', md: '50%' }} borderRadius={'0.5rem'} mb={'4rem'}>
+         width={'80%'} maxWidth={'60rem'} borderRadius={'0.5rem'} mb={'4rem'}>
          <Box className={Style.header}>
             <i className={`fa fa-circle ${Style.red}`} />
             <i className={`fa fa-circle ${Style.amber}`} />

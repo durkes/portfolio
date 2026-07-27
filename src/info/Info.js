@@ -1,9 +1,13 @@
-import mockChat from '../img/mock-chat.png';
-import mockFmll from '../img/mock-fmll.png';
-import mockTbb from '../img/mock-tbb.png';
-import mockNpm1 from '../img/mock-npm1.png';
-import mockWubsub from '../img/mock-wubsub.png';
-import mockMarketplace from '../img/mock-marketplace.png';
+import wbuhHva from '../img/screens/wbuh-hva.jpg';
+import imaginuity from '../img/screens/imaginuity.jpg';
+import dallasMarketCenter from '../img/screens/dallas-market-center.jpg';
+import dallasJet from '../img/screens/dallas-jet.jpg';
+import mockChat from '../img/screens/mock-chat.jpg';
+import mockFmll from '../img/screens/mock-fmll.jpg';
+import mockTbb from '../img/screens/mock-tbb.jpg';
+import mockNpm1 from '../img/screens/mock-npm1.jpg';
+import mockWubsub from '../img/screens/mock-wubsub.jpg';
+import mockMarketplace from '../img/screens/marketplace.jpg';
 
 const colors = ['rgb(0,255,164)', 'rgb(166,104,255)'];
 export const info = {
@@ -54,7 +58,7 @@ export const info = {
         //     label: 'twitter'
         // }
     ],
-    bio: 'Hello, I\'m Justin! I build fast, scalable, and user-friendly web applications, working across the stack with React, Astro, Node.js, .NET, and AWS. I have hands-on experience with platforms like Kentico, Next.js, and custom proprietary solutions. In my current role, I lead the development for a multi-brand enterprise platform serving 900+ franchises, with a focus on performance, SEO, AEO, and conversion. Beyond code, I also bring experience from leadership, operations, and project management roles. I\'m a certified Node.js Developer (StrongLoop), have a degree in IT/Web Design, and completed LC101 through LaunchCode. I started building websites before CSS was a thing :) Lately, I\'ve fully adopted AI into my workflow and enjoy experimenting with new models and tools.',
+    bio: 'Hello, I\'m Justin! I build fast, scalable, and user-friendly web applications across the stack. I work with popular frameworks like React and Astro on the front end, Node.js and .NET on the back end, and cloud providers like AWS and Cloudflare at the edge and underneath. I am Node.js certified and contributed some useful packages early on. I have hands-on experience with CMS migrations and development involving Kentico, WordPress, and custom proprietary solutions. In my current role, I lead the development for a multi-brand enterprise platform serving 900+ franchises, with a focus on performance, SEO, AEO, and conversion. Beyond code, I bring experience from leadership, operations, and project management roles. Lately, I\'ve fully adopted AI into my workflow and enjoy experimenting with new models and tools.',
     skills: {
         proficientWith: [
             // Backend
@@ -95,10 +99,38 @@ export const info = {
     ],
     portfolio: [
         {
+            title: 'Dallas Market Center',
+            description: 'More info on the project.',
+            site: 'https://dallasmarketcenter.com/',
+            image: dallasMarketCenter,
+            alt: 'Dallas Market Center website screenshot'
+        },
+        {
+            title: 'Dallas Jet',
+            description: 'More info on the project.',
+            site: 'https://www.dallasjet.com/',
+            image: dallasJet,
+            alt: 'Dallas Jet International website screenshot'
+        },
+        {
+            title: 'Marketing Agency',
+            description: 'More info on the project.',
+            site: 'https://www.imaginuity.com/',
+            image: imaginuity,
+            alt: 'Imaginuity website screenshot'
+        },
+        {
+            title: 'HomeVestors',
+            description: 'More info on the project.',
+            site: 'https://www.webuyuglyhouses.com/',
+            image: wbuhHva,
+            alt: 'We Buy Ugly Houses website screenshot'
+        },
+        {
             title: 'React Marketplace MVP',
             description: 'More info on the project.',
-            // live: 'https://marketplace-demo.hostw.xyz/',
-            live: null,
+            // demo: 'https://marketplace-demo.hostw.xyz/',
+            demo: null,
             source: 'https://github.com/durkes/marketplace-mvp',
             image: mockMarketplace,
             alt: 'React Marketplace MVP screenshot'
@@ -106,7 +138,7 @@ export const info = {
         {
             title: 'React Chat UI',
             description: 'More info on the project.',
-            live: 'https://durkes.net/react-chat-ui/',
+            demo: 'https://durkes.net/react-chat-ui/',
             source: 'https://github.com/durkes/react-chat-ui',
             image: mockChat,
             alt: 'React Chat UI screenshot'
@@ -114,7 +146,7 @@ export const info = {
         {
             title: 'Client Website (FMLL)',
             description: 'More info on the project.',
-            live: 'https://durkes.net/fmll-website/',
+            demo: 'https://durkes.net/fmll-website/',
             source: 'https://github.com/durkes/fmll-website',
             image: mockFmll,
             alt: 'FMLL website screenshot'
@@ -122,7 +154,7 @@ export const info = {
         {
             title: 'Client Website (TBB)',
             description: 'More info on the project.',
-            live: 'https://tbb.pages.dev/',
+            demo: 'https://tbb.pages.dev/',
             source: 'https://github.com/durkes/tbb-website',
             image: mockTbb,
             alt: 'Client website screenshot'

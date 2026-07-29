@@ -106,6 +106,13 @@ export const info = {
             alt: 'Dallas Market Center website screenshot'
         },
         {
+            title: 'HomeVestors',
+            description: 'More info on the project.',
+            site: 'https://www.webuyuglyhouses.com/',
+            image: wbuhHva,
+            alt: 'We Buy Ugly Houses website screenshot'
+        },
+        {
             title: 'Dallas Jet',
             description: 'More info on the project.',
             site: 'https://www.dallasjet.com/',
@@ -118,13 +125,6 @@ export const info = {
             site: 'https://www.imaginuity.com/',
             image: imaginuity,
             alt: 'Imaginuity website screenshot'
-        },
-        {
-            title: 'HomeVestors',
-            description: 'More info on the project.',
-            site: 'https://www.webuyuglyhouses.com/',
-            image: wbuhHva,
-            alt: 'We Buy Ugly Houses website screenshot'
         },
         {
             title: 'React Marketplace MVP',
@@ -152,7 +152,7 @@ export const info = {
             alt: 'FMLL website screenshot'
         },
         {
-            title: 'Pet Waste Removal',
+            title: 'The Backyard Butler',
             description: 'More info on the project.',
             site: 'https://tbb.pages.dev/',
             source: 'https://github.com/durkes/tbb-website',

@@ -65,9 +65,22 @@ h2 {
 
 .miniBio {
   li {
+    transition: variables.$transition;
+
     &:hover {
-      transform: translateY(-2px);
-      transition: variables.$transition;
+      text-shadow: 0 0 0.6px currentColor, 0 0 0.6px currentColor;
     }
+  }
+}
+.workLink {
+  color: #0000ee;
+  text-decoration: underline !important;
+
+  &:hover {
+    color: #0000b0;
+  }
+
+  &:visited {
+    color: #0000ee;
   }
 }

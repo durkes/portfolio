@@ -20,7 +20,7 @@ export const info = {
     miniBio: [
         {
             emoji: '📜',
-            text: 'certified Node.js developer'
+            text: 'Certified Node.js developer'
         },
         {
             emoji: '💻',
@@ -28,7 +28,12 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'based in Dallas, Texas'
+            text: 'Based in Dallas, Texas'
+        },
+        {
+            emoji: '🚀',
+            text: 'Check out some of my work',
+            link: '/projects'
         },
     ],
     socials: [

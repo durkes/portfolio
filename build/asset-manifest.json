@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./build/static/css/main.50365867.css",
-    "main.js": "./build/static/js/main.43495e2e.js",
+    "main.js": "./build/static/js/main.9562e30b.js",
     "static/media/dallas-market-center.jpg": "./build/static/media/dallas-market-center.ba6dacfd8418a2d8f249.jpg",
     "static/media/imaginuity.jpg": "./build/static/media/imaginuity.432fb120925b4d295c42.jpg",
     "static/media/wbuh-hva.jpg": "./build/static/media/wbuh-hva.37f53e5419ca95b49ff1.jpg",
@@ -15,10 +15,10 @@
     "static/media/mock-chat.jpg": "./build/static/media/mock-chat.3fbdbe7157e73a488251.jpg",
     "index.html": "./build/index.html",
     "main.50365867.css.map": "./build/static/css/main.50365867.css.map",
-    "main.43495e2e.js.map": "./build/static/js/main.43495e2e.js.map"
+    "main.9562e30b.js.map": "./build/static/js/main.9562e30b.js.map"
   },
   "entrypoints": [
     "static/css/main.50365867.css",
-    "static/js/main.43495e2e.js"
+    "static/js/main.9562e30b.js"
   ]
 }

@@ -24,7 +24,11 @@ export const info = {
         },
         {
             emoji: '💻',
-            text: 'Kentico, WordPress, React, Astro, AWS...'
+            text: 'Kentico, React, Astro, AWS...'
+        },
+        {
+            emoji: '🥇',
+            text: 'Pixel-perfect frontend master'
         },
         {
             emoji: '🌎',

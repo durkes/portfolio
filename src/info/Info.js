@@ -24,7 +24,7 @@ export const info = {
         },
         {
             emoji: '💻',
-            text: 'Kentico, React, Astro, AWS...'
+            text: 'JavaScript, HTML, SCSS, React, Astro, .NET, AWS...'
         },
         {
             emoji: '🥇',
@@ -67,7 +67,7 @@ export const info = {
         //     label: 'twitter'
         // }
     ],
-    bio: 'Hello, I\'m Justin! I build fast, scalable, and user-friendly web applications across the stack. I work with frameworks like React and Astro on the front end, Node.js and .NET on the back end, and providers like AWS and Cloudflare for infra and edge. I am Node.js certified and contributed some useful packages early on. I have hands-on experience with CMS migrations and development involving Kentico, WordPress, and custom proprietary solutions. In my current role, I lead the development for a multi-brand enterprise platform serving 900+ franchises, with a focus on performance, SEO, AEO, and conversion. Beyond code, I bring experience from leadership, operations, and project management roles. Lately, I\'ve fully adopted AI into my workflow and enjoy experimenting with new models and tools.',
+    bio: 'Hello, I\'m Justin! I build fast, scalable, and user-friendly web applications across the stack. I work with frameworks like React and Astro on the front end, Node.js and .NET on the back end, and providers like AWS and Cloudflare for infra and edge. I am Node.js certified and contributed some open-source packages early on. I have hands-on experience with CMS migrations and development involving Kentico, WordPress, and custom proprietary solutions. In my current role, I lead the development for a multi-brand enterprise platform serving 900+ franchises, with a focus on performance, SEO, AEO, and conversion. Beyond code, I bring experience from leadership, operations, and project management roles. Lately, I\'ve fully adopted AI into my workflow and enjoy experimenting with new models and tools.',
     skills: {
         proficientWith: [
             // Backend

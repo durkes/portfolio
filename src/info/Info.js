@@ -136,6 +136,22 @@ export const info = {
             alt: 'Imaginuity website screenshot'
         },
         {
+            title: 'FM Lawn & Landscape',
+            description: 'More info on the project.',
+            site: 'https://durkes.net/fmll-website/',
+            source: 'https://github.com/durkes/fmll-website',
+            image: mockFmll,
+            alt: 'FMLL website screenshot'
+        },
+        {
+            title: 'The Backyard Butler',
+            description: 'More info on the project.',
+            site: 'https://tbb.pages.dev/',
+            source: 'https://github.com/durkes/tbb-website',
+            image: mockTbb,
+            alt: 'Client website screenshot'
+        },
+        {
             title: 'React Marketplace MVP',
             description: 'More info on the project.',
             // demo: 'https://marketplace-demo.hostw.xyz/',
@@ -151,22 +167,6 @@ export const info = {
             source: 'https://github.com/durkes/react-chat-ui',
             image: mockChat,
             alt: 'React Chat UI screenshot'
-        },
-        {
-            title: 'FM Lawn & Landscape',
-            description: 'More info on the project.',
-            site: 'https://durkes.net/fmll-website/',
-            source: 'https://github.com/durkes/fmll-website',
-            image: mockFmll,
-            alt: 'FMLL website screenshot'
-        },
-        {
-            title: 'The Backyard Butler',
-            description: 'More info on the project.',
-            site: 'https://tbb.pages.dev/',
-            source: 'https://github.com/durkes/tbb-website',
-            image: mockTbb,
-            alt: 'Client website screenshot'
         },
         {
             title: 'node-router: Node.js Middleware',

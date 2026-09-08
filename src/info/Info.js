@@ -23,12 +23,12 @@ export const info = {
             text: 'Certified Node.js Developer'
         },
         {
-            emoji: '💻',
-            text: 'JavaScript, HTML, SCSS, React, Astro, .NET, AWS...'
-        },
-        {
             emoji: '🥇',
             text: 'Pixel-perfect frontend master'
+        },
+        {
+            emoji: '💻',
+            text: 'Adaptable across stacks and projects'
         },
         {
             emoji: '🌎',
